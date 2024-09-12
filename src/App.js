@@ -26,12 +26,29 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Excel to JSON Converter</h1>
-      <input type="file" accept=".xlsx, .xls" onChange={handleFileChange} />
-      <button onClick={convertToJson} disabled={!excelFile}>
-        Convert and Download JSON
-      </button>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white shadow-lg rounded-lg p-8 max-w-sm w-full">
+        <h1 className="text-2xl font-semibold text-center mb-6">
+          Excel to JSON Converter
+        </h1>
+        <input
+          type="file"
+          accept=".xlsx, .xls"
+          onChange={handleFileChange}
+          className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 mb-4"
+        />
+        <button
+          onClick={convertToJson}
+          disabled={!excelFile}
+          className={`w-full py-2 rounded-lg font-semibold text-white ${
+            excelFile
+              ? "bg-blue-600 hover:bg-blue-700"
+              : "bg-gray-400 cursor-not-allowed"
+          }`}
+        >
+          Convert and Download JSON
+        </button>
+      </div>
     </div>
   );
 }
