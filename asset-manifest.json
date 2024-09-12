@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/excel-to-json/static/css/main.336d9ccc.css",
-    "main.js": "/excel-to-json/static/js/main.b1130ffa.js",
+    "main.css": "/excel-to-json/static/css/main.93f3415b.css",
+    "main.js": "/excel-to-json/static/js/main.f19792d3.js",
     "static/js/453.381c9b0e.chunk.js": "/excel-to-json/static/js/453.381c9b0e.chunk.js",
     "index.html": "/excel-to-json/index.html",
-    "main.336d9ccc.css.map": "/excel-to-json/static/css/main.336d9ccc.css.map",
-    "main.b1130ffa.js.map": "/excel-to-json/static/js/main.b1130ffa.js.map",
+    "main.93f3415b.css.map": "/excel-to-json/static/css/main.93f3415b.css.map",
+    "main.f19792d3.js.map": "/excel-to-json/static/js/main.f19792d3.js.map",
     "453.381c9b0e.chunk.js.map": "/excel-to-json/static/js/453.381c9b0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.336d9ccc.css",
-    "static/js/main.b1130ffa.js"
+    "static/css/main.93f3415b.css",
+    "static/js/main.f19792d3.js"
   ]
 }
